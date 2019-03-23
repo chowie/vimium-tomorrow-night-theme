@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+:root {
+   --vim-background: #1d1f21;
+    --vim-current-line: #282a2e;
+    --vim-selection: #373b41;
+    --vim-foreground: #c5c8c6;
+    --vim-comment: #969896;
+    --vim-red: #cc6666;
+    --vim-orange: #de935f;
+    --vim-yellow: #f0c674;
+    --vim-green: #b5bd68;
+    --vim-aqua: #8abeb7;
+    --vim-blue: #81a2be;
+    --vim-purple: #b294bb;
+
+}
+
+
+
+div > .vimiumHintMarker {
+  /* linkhint boxes */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,var(--vim-background)),
+  color-stop(100%,var(--vim-background)));
+  border: 1px solid var(--vim-background);
+}
+
+div > .vimiumHintMarker span {
+  /* linkhint text */
+  color: black;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+input#vomnibarInput.vimiumReset {
+	color: var(--vim-foreground) !important;
+  background-color: var(--vim-background) !important;
+    height: 60px;
+    font-size: 26px;
+}
+
+#vomnibar {
+   border-color: var(--vim-background);
+   background-color: black;
+}
+
+#vomnibar .vimiumReset.vomnibarTopHalf span {
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800;
+}
+
+#vomnibar .vomnibarSearchArea {
+   background-color: var(--vim-background);
+   border-bottom: var(--vim-background);
+   padding: 0;
+}
+
+#vomnibar input {
+   border-color: var(--vim-background);
+}
+
+#vomnibar ul {
+    background-color: #222;
+}
+
+#vomnibar li {
+   border-bottom: var(--vim-orange);
+}
+
+#vomnibar li .vomnibarUrl {
+   color: var(--vim-blue);
+}
+
+#vomnibar li .vomnibarMatch {
+   color: var(--vim-yellow) !important;
+}
+
+span.vimiumReset.vomnibarSource.vomnibarInsertText {
+   color: var(--vim-red) !important;
+} 
+
+#vomnibar li.vomnibarSelected {
+    background-color: var(--vim-selection);
+}
+
+#vomnibar li em .vomnibarMatch, 
+#vomnibar li .vomnibarTitle .vomnibarMatch,
+#vomnibar .vimiumReset.matchingCharacter {
+   background: var(--vim-background) !important;
+   color: var(--vim-yellow) !important;
+}
+
+#vomnibar li em, #vomnibar li .vomnibarTitle {
+   color: var(--vim-foreground);
+}
+
+#vomnibar li .vimiumReset.vomnibarSource {
+    color: var(--vim-comment);
+}
+
+div > .vimiumHintMarker span {
+    background-color: var(--vim-background);
+    color: var(--vim-foreground) !important;
+}
+
+.vimiumReset.internalVimiumHintMarker.vimiumHintMarker {
+    background: var(--vim-background) !important;
+    border: 0 none !important;
+    border-radius: 0 !important;
+    padding: 1em;
+}
+
