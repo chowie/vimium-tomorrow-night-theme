@@ -17,7 +17,7 @@
 
 }
 
-
+iframe.vimiumHUDFrame.vimiumUIComponentVisible
 
 div > .vimiumHintMarker {
   /* linkhint boxes */
@@ -53,19 +53,20 @@ input#vomnibarInput.vimiumReset {
 #vomnibar .vomnibarSearchArea {
    background-color: var(--vim-background);
    border-bottom: var(--vim-background);
-   padding: 0;
+   padding: 0 0 0 1em;
 }
 
 #vomnibar input {
    border-color: var(--vim-background);
 }
 
-#vomnibar ul {
-    background-color: #222;
+#vomnibar ul.vimiumReset {
+    background-color: var(--vim-background);
+    border-top: 1px solid var(--vim-selection);
 }
 
 #vomnibar li {
-   border-bottom: var(--vim-orange);
+   border-bottom: 1px solid var(--vim-selection);
 }
 
 #vomnibar li .vomnibarUrl {
@@ -110,4 +111,3 @@ div > .vimiumHintMarker span {
     border-radius: 0 !important;
     padding: 1em;
 }
-
