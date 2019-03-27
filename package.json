@@ -1,0 +1,20 @@
+{
+  "name": "vimium-tomorrow-night-theme",
+  "version": "1.0.0",
+  "description": "Theme for the Vimium browser plugin",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chowie/vimium-tomorrow-night-theme.git"
+  },
+  "keywords": [
+    "vimium",
+    "theme",
+    "css"
+  ],
+  "author": "Christopher Howie",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chowie/vimium-tomorrow-night-theme/issues"
+  },
+  "homepage": "https://github.com/chowie/vimium-tomorrow-night-theme#readme"
+}
